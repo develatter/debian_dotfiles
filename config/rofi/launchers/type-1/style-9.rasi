@@ -97,7 +97,7 @@ mainbox {
 /*****----- A Custom Box -----*****/
 custombox {
     spacing:                     0px;
-    background-color:            @background-colour;
+    background-color:            transparent;
     text-color:                  @foreground-colour;
     orientation:                 horizontal;
     children:                    [ "mode-switcher", "listview" ];
@@ -208,7 +208,7 @@ element {
     cursor:                      pointer;
 }
 element normal.normal {
-    background-color:            var(normal-background);
+    background-color:            transparent;
     text-color:                  var(normal-foreground);
 }
 element normal.urgent {
@@ -232,7 +232,7 @@ element selected.active {
     text-color:                  var(selected-active-foreground);
 }
 element alternate.normal {
-    background-color:            var(alternate-normal-background);
+    background-color:            transparent;
     text-color:                  var(alternate-normal-foreground);
 }
 element alternate.urgent {
@@ -269,7 +269,7 @@ mode-switcher{
     border:                      0px solid;
     border-radius:               8px 0px 0px 8px;
     border-color:                @border-colour;
-    background-color:            @alternate-background;
+    background-color:            transparent;
     text-color:                  @foreground-colour;
 }
 button {
@@ -287,7 +287,7 @@ button selected {
     border:                      2px 0px 2px 2px;
     border-radius:               8px 0px 0px 8px;
     border-color:                @border-colour;
-    background-color:            var(selected-normal-foreground);
+    background-color:            transparent;
     text-color:                  var(selected-normal-background);
 }
 
