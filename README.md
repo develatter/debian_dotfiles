@@ -16,6 +16,10 @@ Esta es la configuración que actualmente estoy usando en Debian 12 (arm64).
 
 **File Manager**: Ranger
 
+## Screenshots
+![img](Screenshots/1.jpg)
+![img](Screenshots/2.jpg)
+![img](Screenshots/3.jpg)
 ## Instalación
 (Próximamente)
 
