@@ -8,7 +8,7 @@ Esta es la configuración que actualmente estoy usando en Debian 12 (arm64).
 
 **Launcher** Rofi (temas de [adi1090x](https://github.com/adi1090x/rofi)
 
-**Editor** NeoVim (Con NvChad)
+**Editor**: NeoVim (Con NvChad)
 
 **Terminal**: Kitty
 
